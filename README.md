@@ -28,12 +28,10 @@ To run this project, you will need Python 3.10 and the following libraries:
 pip install numpy==1.24.3
 pip install pandas==2.0.3
 pip install scikit-learn==1.3.0
-pip install tensorflow==2.10.0 # or a compatible version with Keras 2.10
-pip install keras==2.10.0
-pip install requests # For communication with the Gemini API
+pip install tensorflow==2.15.0
+pip install keras==2.15.0
+pip install requests 
 
-
-Note: The specific versions of numpy, pandas, and scikit-learn are important to ensure compatibility with TensorFlow and Keras versions.
 
 Next Steps
 The goal is that, after extensive training with simulated data and, subsequently, with real game data such as Axie Infinity, Adla will become a robust and autonomous tool for managing game economies. The open-source nature of the project will allow community collaboration in defining and refining economic goals, making Adla adaptable to various game scenarios.
