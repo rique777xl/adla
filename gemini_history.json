@@ -1,0 +1,80 @@
+[
+  {
+    "transaction_volume": 1625.0,
+    "nft_avg_price": 40.8,
+    "daily_active_users": 3.07,
+    "new_players": 1e-05,
+    "leaving_players": 273.0,
+    "dex_liquidity": 2235.0,
+    "token_price": 0.142,
+    "token_generation_rate": 429.0,
+    "token_burn_rate": 290.0,
+    "circulating_assets": 1683550.0,
+    "community_sentiment": "negative"
+  },
+  {
+    "transaction_volume": 1620.0,
+    "nft_avg_price": 40.7,
+    "daily_active_users": 3.06,
+    "new_players": 1e-05,
+    "leaving_players": 274.0,
+    "dex_liquidity": 2230.0,
+    "token_price": 0.141,
+    "token_generation_rate": 428.0,
+    "token_burn_rate": 292.0,
+    "circulating_assets": 1683850.0,
+    "community_sentiment": "negative"
+  },
+  {
+    "transaction_volume": 1618.5,
+    "nft_avg_price": 40.69,
+    "daily_active_users": 3.059,
+    "new_players": 1e-05,
+    "leaving_players": 274.1,
+    "dex_liquidity": 2228.45,
+    "token_price": 0.1408,
+    "token_generation_rate": 427.7,
+    "token_burn_rate": 291.85,
+    "circulating_assets": 1684095.714,
+    "community_sentiment": "negative"
+  },
+  {
+    "transaction_volume": 1618.5,
+    "nft_avg_price": 40.69,
+    "daily_active_users": 3.059,
+    "new_players": 1e-05,
+    "leaving_players": 274.1,
+    "dex_liquidity": 2228.45,
+    "token_price": 0.1408,
+    "token_generation_rate": 427.7,
+    "token_burn_rate": 291.85,
+    "circulating_assets": 1684095.714,
+    "community_sentiment": "negative"
+  },
+  {
+    "transaction_volume": 1618.5,
+    "nft_avg_price": 40.69,
+    "daily_active_users": 3.059,
+    "new_players": 1e-05,
+    "leaving_players": 274.1,
+    "dex_liquidity": 2228.45,
+    "token_price": 0.1408,
+    "token_generation_rate": 427.7,
+    "token_burn_rate": 291.85,
+    "circulating_assets": 1684095.714,
+    "community_sentiment": "negative"
+  },
+  {
+    "transaction_volume": 1617.0,
+    "nft_avg_price": 40.68,
+    "daily_active_users": 3.058,
+    "new_players": 1e-05,
+    "leaving_players": 274.2,
+    "dex_liquidity": 2226.7,
+    "token_price": 0.1406,
+    "token_generation_rate": 427.5,
+    "token_burn_rate": 291.7,
+    "circulating_assets": 1684290.852,
+    "community_sentiment": "negative"
+  }
+]
