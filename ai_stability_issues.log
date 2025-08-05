@@ -1,0 +1,3755 @@
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T12:19:01.829605",
+      "rate": 0.4753995115370131,
+      "analysis": {
+        "decision_factors": [
+          "淀粉いたな高い税率選択 (47.5%) 通貨発行を抑制"
+        ],
+        "risks": [],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T12:33:28.359516",
+      "rate": 0.4253995115370131,
+      "analysis": {
+        "decision_factors": [
+          "淀粉いたな高い税率選択 (42.5%) 通貨発行を抑制"
+        ],
+        "risks": [],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T12:34:33.229192",
+      "rate": 0.4886792444119717,
+      "analysis": {
+        "decision_factors": [
+          "淀粉いたな高い税率選択 (48.9%) 通貨発行を抑制"
+        ],
+        "risks": [],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T12:48:23.774545",
+      "rate": 0.3702494615142923,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (191.7%)",
+          "Liquidez baixa (ratio: 0.13)",
+          "Sentimento negativo da comunidade",
+          "淀粉いたな高い税率選択 (37.0%) 通貨発行を抑制"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:11:29.571427",
+      "rate": 0.31973129173133413,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (191.7%)",
+          "Liquidez baixa (ratio: 0.13)",
+          "Sentimento negativo da comunidade",
+          "高い税率選択 (32.0%) 通貨発行を抑制"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T13:29:42.196433",
+      "rate": 0.15097261907570292,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (530.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (15.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:30:13.087044",
+      "rate": 0.2009726190757029,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (543.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (20.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:30:43.743297",
+      "rate": 0.15097261907570292,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (600.0%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (15.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:31:14.212065",
+      "rate": 0.2009726190757029,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (694.4%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (20.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:31:44.555829",
+      "rate": 0.15097261907570292,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (764.7%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (15.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T13:30:13.087044",
+      "rate": 0.2009726190757029,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (543.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (20.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:30:43.743297",
+      "rate": 0.15097261907570292,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (600.0%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (15.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:31:14.212065",
+      "rate": 0.2009726190757029,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (694.4%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (20.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:31:44.555829",
+      "rate": 0.15097261907570292,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (764.7%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (15.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:32:14.852670",
+      "rate": 0.2009726190757029,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (818.2%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (20.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T13:30:43.743297",
+      "rate": 0.15097261907570292,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (600.0%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (15.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:31:14.212065",
+      "rate": 0.2009726190757029,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (694.4%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (20.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:31:44.555829",
+      "rate": 0.15097261907570292,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (764.7%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (15.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:32:14.852670",
+      "rate": 0.2009726190757029,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (818.2%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (20.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:32:45.430815",
+      "rate": 0.17901119762661322,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (945.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.9%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T13:31:14.212065",
+      "rate": 0.2009726190757029,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (694.4%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (20.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:31:44.555829",
+      "rate": 0.15097261907570292,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (764.7%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (15.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:32:14.852670",
+      "rate": 0.2009726190757029,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (818.2%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (20.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:32:45.430815",
+      "rate": 0.17901119762661322,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (945.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.9%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:33:16.212074",
+      "rate": 0.2290111976266132,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (959.6%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.9%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T13:31:44.555829",
+      "rate": 0.15097261907570292,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (764.7%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (15.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:32:14.852670",
+      "rate": 0.2009726190757029,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (818.2%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (20.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:32:45.430815",
+      "rate": 0.17901119762661322,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (945.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.9%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:33:16.212074",
+      "rate": 0.2290111976266132,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (959.6%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.9%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:33:46.446422",
+      "rate": 0.2790111976266132,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (972.2%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.9%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Dados insuficientes para predição (necessário almeno 30 dias de dados)",
+          "token_price": "Coletando dados históricos...",
+          "player_retention": "Prediçoes disponíveis após acumular dados suficientes"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T13:43:37.899556",
+      "rate": 0.24967596607857695,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2215.2%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.2% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.6% esperada",
+          "player_retention": "Base de jogadores: redução de 2.2% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.01)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:46:16.212085",
+      "rate": 0.29967596607857694,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2285.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (30.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.4% no volume previsto",
+          "token_price": "Preço do token: baixa de 2.5% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.0% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.00)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:48:54.430846",
+      "rate": 0.24967596607857695,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2327.1%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.3% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.4% esperada",
+          "player_retention": "Base de jogadores: crescimento de 1.2% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:51:15.555808",
+      "rate": 0.24967596607857695,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2391.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.6% no volume previsto",
+          "token_price": "Preço do token: alta de 1.1% esperada",
+          "player_retention": "Base de jogadores: redução de 1.8% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.02)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:56:03.993320",
+      "rate": 0.3496759660785769,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2391.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "高い税率選択 (35.0%) 通貨発行を抑制"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 2.3% esperada",
+          "player_retention": "Base de jogadores: redução de 1.0% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.02)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T13:46:16.212085",
+      "rate": 0.29967596607857694,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2285.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (30.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.4% no volume previsto",
+          "token_price": "Preço do token: baixa de 2.5% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.0% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.00)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:48:54.430846",
+      "rate": 0.24967596607857695,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2327.1%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.3% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.4% esperada",
+          "player_retention": "Base de jogadores: crescimento de 1.2% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:51:15.555808",
+      "rate": 0.24967596607857695,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2391.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.6% no volume previsto",
+          "token_price": "Preço do token: alta de 1.1% esperada",
+          "player_retention": "Base de jogadores: redução de 1.8% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.02)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:56:03.993320",
+      "rate": 0.3496759660785769,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2391.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "高い税率選択 (35.0%) 通貨発行を抑制"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 2.3% esperada",
+          "player_retention": "Base de jogadores: redução de 1.0% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.02)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:59:25.290224",
+      "rate": 0.29967596607857694,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2472.2%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (30.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 4.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 1.1% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T13:48:54.430846",
+      "rate": 0.24967596607857695,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2327.1%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.3% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.4% esperada",
+          "player_retention": "Base de jogadores: crescimento de 1.2% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:51:15.555808",
+      "rate": 0.24967596607857695,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2391.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.6% no volume previsto",
+          "token_price": "Preço do token: alta de 1.1% esperada",
+          "player_retention": "Base de jogadores: redução de 1.8% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.02)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:56:03.993320",
+      "rate": 0.3496759660785769,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2391.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "高い税率選択 (35.0%) 通貨発行を抑制"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 2.3% esperada",
+          "player_retention": "Base de jogadores: redução de 1.0% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.02)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:59:25.290224",
+      "rate": 0.29967596607857694,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2472.2%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (30.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 4.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 1.1% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:02:28.484655",
+      "rate": 0.24967596607857695,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2608.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.2% esperada",
+          "player_retention": "Base de jogadores: crescimento de 1.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.02)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T13:51:15.555808",
+      "rate": 0.24967596607857695,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2391.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.6% no volume previsto",
+          "token_price": "Preço do token: alta de 1.1% esperada",
+          "player_retention": "Base de jogadores: redução de 1.8% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.02)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:56:03.993320",
+      "rate": 0.3496759660785769,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2391.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "高い税率選択 (35.0%) 通貨発行を抑制"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 2.3% esperada",
+          "player_retention": "Base de jogadores: redução de 1.0% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.02)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:59:25.290224",
+      "rate": 0.29967596607857694,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2472.2%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (30.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 4.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 1.1% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:02:28.484655",
+      "rate": 0.24967596607857695,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2608.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.2% esperada",
+          "player_retention": "Base de jogadores: crescimento de 1.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.02)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:05:52.415257",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2686.6%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.1% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.3% esperada",
+          "player_retention": "Base de jogadores: redução de 0.3% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.01)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T13:56:03.993320",
+      "rate": 0.3496759660785769,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2391.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "高い税率選択 (35.0%) 通貨発行を抑制"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 2.3% esperada",
+          "player_retention": "Base de jogadores: redução de 1.0% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.02)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T13:59:25.290224",
+      "rate": 0.29967596607857694,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2472.2%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (30.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 4.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 1.1% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:02:28.484655",
+      "rate": 0.24967596607857695,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2608.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.2% esperada",
+          "player_retention": "Base de jogadores: crescimento de 1.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.02)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:05:52.415257",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2686.6%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.1% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.3% esperada",
+          "player_retention": "Base de jogadores: redução de 0.3% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.01)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:09:20.744864",
+      "rate": 0.17482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2742.4%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 1.6% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.2% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T13:59:25.290224",
+      "rate": 0.29967596607857694,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2472.2%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (30.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 4.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 1.1% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:02:28.484655",
+      "rate": 0.24967596607857695,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2608.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.2% esperada",
+          "player_retention": "Base de jogadores: crescimento de 1.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.02)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:05:52.415257",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2686.6%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.1% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.3% esperada",
+          "player_retention": "Base de jogadores: redução de 0.3% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.01)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:09:20.744864",
+      "rate": 0.17482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2742.4%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 1.6% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.2% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:13:06.337120",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2843.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.4% esperada",
+          "player_retention": "Base de jogadores: redução de 0.7% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.01)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T14:02:28.484655",
+      "rate": 0.24967596607857695,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2608.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.0%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.2% esperada",
+          "player_retention": "Base de jogadores: crescimento de 1.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.02)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:05:52.415257",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2686.6%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.1% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.3% esperada",
+          "player_retention": "Base de jogadores: redução de 0.3% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.01)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:09:20.744864",
+      "rate": 0.17482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2742.4%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 1.6% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.2% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:13:06.337120",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2843.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.4% esperada",
+          "player_retention": "Base de jogadores: redução de 0.7% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.01)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:16:39.481568",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2960.0%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 6.9% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.6% esperada",
+          "player_retention": "Base de jogadores: crescimento de 7.6% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T14:05:52.415257",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2686.6%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.1% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.3% esperada",
+          "player_retention": "Base de jogadores: redução de 0.3% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.01)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:09:20.744864",
+      "rate": 0.17482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2742.4%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 1.6% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.2% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:13:06.337120",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2843.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.4% esperada",
+          "player_retention": "Base de jogadores: redução de 0.7% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.01)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:16:39.481568",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2960.0%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 6.9% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.6% esperada",
+          "player_retention": "Base de jogadores: crescimento de 7.6% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T20:44:28.822510",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2960.0%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 1.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.5% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T14:09:20.744864",
+      "rate": 0.17482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2742.4%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 3.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 1.6% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.2% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:13:06.337120",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2843.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.4% esperada",
+          "player_retention": "Base de jogadores: redução de 0.7% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.01)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:16:39.481568",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2960.0%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 6.9% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.6% esperada",
+          "player_retention": "Base de jogadores: crescimento de 7.6% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T20:44:28.822510",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2960.0%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 1.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.5% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T20:58:32.034590",
+      "rate": 0.17482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3166.7%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.8% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.4% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T14:13:06.337120",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2843.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.4% esperada",
+          "player_retention": "Base de jogadores: redução de 0.7% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.01)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T14:16:39.481568",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2960.0%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 6.9% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.6% esperada",
+          "player_retention": "Base de jogadores: crescimento de 7.6% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T20:44:28.822510",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2960.0%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 1.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.5% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T20:58:32.034590",
+      "rate": 0.17482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3166.7%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.8% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.4% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:10:29.024924",
+      "rate": 0.12482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3545.5%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "選択された低税率 (12.5%) 市場活性化を促進"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T14:16:39.481568",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2960.0%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 6.9% no volume previsto",
+          "token_price": "Preço do token: baixa de 0.6% esperada",
+          "player_retention": "Base de jogadores: crescimento de 7.6% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (-0.00)",
+          "liquidity_impact": "Líquidez: deterioração"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T20:44:28.822510",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2960.0%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 1.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.5% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T20:58:32.034590",
+      "rate": 0.17482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3166.7%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.8% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.4% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:10:29.024924",
+      "rate": 0.12482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3545.5%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "選択された低税率 (12.5%) 市場活性化を促進"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:20:57.122306",
+      "rate": 0.17482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3712.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.6% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T20:44:28.822510",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (2960.0%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 1.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.5% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T20:58:32.034590",
+      "rate": 0.17482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3166.7%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.8% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.4% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:10:29.024924",
+      "rate": 0.12482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3545.5%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "選択された低税率 (12.5%) 市場活性化を促進"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:20:57.122306",
+      "rate": 0.17482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3712.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.6% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:42:27.096318",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3752.4%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.6% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T20:58:32.034590",
+      "rate": 0.17482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3166.7%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.8% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.4% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:10:29.024924",
+      "rate": 0.12482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3545.5%)",
+          "Liquidez baixa (ratio: 0.15)",
+          "Sentimento negativo da comunidade",
+          "選択された低税率 (12.5%) 市場活性化を促進"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.7% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:20:57.122306",
+      "rate": 0.17482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3712.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.6% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:42:27.096318",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3752.4%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.6% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:50:26.302250",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3883.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.6% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T21:20:57.122306",
+      "rate": 0.17482217848300935,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3712.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (17.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.6% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:42:27.096318",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3752.4%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.6% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:50:26.302250",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3883.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.6% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:59:30.366773",
+      "rate": 0.3248221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (4285.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "高い税率選択 (32.5%) 通貨発行を抑制"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.4% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.1% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T11:24:19.112183",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (4574.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.3% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.1% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T21:42:27.096318",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3752.4%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.6% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.5% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:50:26.302250",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3883.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.6% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:59:30.366773",
+      "rate": 0.3248221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (4285.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "高い税率選択 (32.5%) 通貨発行を抑制"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.4% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.1% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T11:24:19.112183",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (4574.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.3% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.1% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T15:57:37.223093",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (4888.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.3% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.0% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T21:50:26.302250",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (3883.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.6% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.3% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-27T21:59:30.366773",
+      "rate": 0.3248221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (4285.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "高い税率選択 (32.5%) 通貨発行を抑制"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.4% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.1% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T11:24:19.112183",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (4574.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.3% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.1% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T15:57:37.223093",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (4888.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.3% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.0% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:03:08.481051",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (5348.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.2% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.9% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-27T21:59:30.366773",
+      "rate": 0.3248221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (4285.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "高い税率選択 (32.5%) 通貨発行を抑制"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.4% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.1% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T11:24:19.112183",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (4574.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.3% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.1% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T15:57:37.223093",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (4888.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.3% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.0% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:03:08.481051",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (5348.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.2% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.9% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:12:05.268743",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (5731.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.1% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-28T11:24:19.112183",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (4574.5%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.3% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.1% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T15:57:37.223093",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (4888.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.3% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.0% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:03:08.481051",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (5348.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.2% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.9% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:12:05.268743",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (5731.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.1% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:18:50.295562",
+      "rate": 0.2507039682720942,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (6282.1%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Aumento de 0.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-28T15:57:37.223093",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (4888.9%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.3% no volume previsto",
+          "token_price": "Preço do token: baixa de 4.0% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:03:08.481051",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (5348.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.2% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.9% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:12:05.268743",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (5731.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.1% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:18:50.295562",
+      "rate": 0.2507039682720942,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (6282.1%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Aumento de 0.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:23:36.600006",
+      "rate": 0.2007039682720942,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (6613.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (20.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Aumento de 0.1% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.7% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-28T16:03:08.481051",
+      "rate": 0.22482217848300934,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (5348.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (22.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.2% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.9% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:12:05.268743",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (5731.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.1% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:18:50.295562",
+      "rate": 0.2507039682720942,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (6282.1%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Aumento de 0.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:23:36.600006",
+      "rate": 0.2007039682720942,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (6613.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (20.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Aumento de 0.1% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.7% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:32:25.202332",
+      "rate": 0.21502416553638792,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (6657.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (21.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Aumento de 0.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-28T16:12:05.268743",
+      "rate": 0.2748221784830093,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (5731.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (27.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Queda de 0.1% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:18:50.295562",
+      "rate": 0.2507039682720942,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (6282.1%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Aumento de 0.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:23:36.600006",
+      "rate": 0.2007039682720942,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (6613.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (20.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Aumento de 0.1% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.7% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:32:25.202332",
+      "rate": 0.21502416553638792,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (6657.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (21.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Aumento de 0.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:52:35.462820",
+      "rate": 0.2650241655363879,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (6837.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (26.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Aumento de 0.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}
+{
+  "filename": "ai_stability_issues.log",
+  "header": [
+    "Relatório de Estabilidade:",
+    "Valores acíclicos",
+    "Habilitando...",
+    "latest uncertain decisions?",
+    "Proposed changes for long-term vision improvement:"
+  ],
+  "decisions": [
+    {
+      "timestamp": "2025-07-28T16:18:50.295562",
+      "rate": 0.2507039682720942,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (6282.1%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (25.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Aumento de 0.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:23:36.600006",
+      "rate": 0.2007039682720942,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (6613.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (20.1%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Aumento de 0.1% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.7% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:32:25.202332",
+      "rate": 0.21502416553638792,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (6657.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (21.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Aumento de 0.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T16:52:35.462820",
+      "rate": 0.2650241655363879,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (6837.8%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "安定的な政策選択 (26.5%) 長期ビジョンに沿う"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Aumento de 0.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-07-28T17:03:04.463403",
+      "rate": 0.3150241655363879,
+      "analysis": {
+        "decision_factors": [
+          "Alta taxa de saída de jogadores (7285.7%)",
+          "Liquidez baixa (ratio: 0.14)",
+          "Sentimento negativo da comunidade",
+          "高い税率選択 (31.5%) 通貨発行を抑制"
+        ],
+        "risks": [
+          "Risco de êxodo em massa de jogadores",
+          "Risco de travamento do mercado",
+          "Risco de dano à reputação"
+        ],
+        "opportunities": [],
+        "predictions": {
+          "volume_24h": "Aumento de 0.0% no volume previsto",
+          "token_price": "Preço do token: baixa de 3.8% esperada",
+          "player_retention": "Base de jogadores: crescimento de 0.4% projetado",
+          "sentiment_trend": "Sentimento: tendência negativa (0.01)",
+          "liquidity_impact": "Líquidez: melhora"
+        }
+      }
+    }
+  ]
+}

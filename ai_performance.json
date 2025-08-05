@@ -1,0 +1,481 @@
+{
+  "metrics_history": [
+    {
+      "timestamp": "2025-08-05T13:38:59.480990",
+      "prev_score": 10,
+      "curr_score": 85,
+      "improvement": 75,
+      "stagnation_penalty": 0,
+      "final_reward": 75,
+      "withdrawal_rate": 0.317441,
+      "key_metrics": {
+        "dau": 4000.0,
+        "token_price": 0.2,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T14:52:52.088110",
+      "prev_score": 85,
+      "curr_score": 90,
+      "improvement": 5,
+      "stagnation_penalty": 0,
+      "final_reward": 5,
+      "withdrawal_rate": 0.367441,
+      "key_metrics": {
+        "dau": 4200.0,
+        "token_price": 0.21,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:09:40.839530",
+      "prev_score": 90,
+      "curr_score": 90,
+      "improvement": 0,
+      "stagnation_penalty": 0,
+      "final_reward": 0,
+      "withdrawal_rate": 0.317441,
+      "key_metrics": {
+        "dau": 4368.0,
+        "token_price": 0.22,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:21:13.553529",
+      "prev_score": 90,
+      "curr_score": 90,
+      "improvement": 0,
+      "stagnation_penalty": 8,
+      "final_reward": -8,
+      "withdrawal_rate": 0.367441,
+      "key_metrics": {
+        "dau": 4586.4,
+        "token_price": 0.242,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:21:24.865636",
+      "prev_score": 90,
+      "curr_score": 90,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.367441,
+      "key_metrics": {
+        "dau": 4720.0,
+        "token_price": 0.255,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:21:32.850490",
+      "prev_score": 90,
+      "curr_score": 100,
+      "improvement": 10,
+      "stagnation_penalty": 3,
+      "final_reward": 7,
+      "withdrawal_rate": 0.367441,
+      "key_metrics": {
+        "dau": 4956.0,
+        "token_price": 0.28,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:27:57.304164",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.317441,
+      "key_metrics": {
+        "dau": 5203.8,
+        "token_price": 0.3,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:30:02.664309",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.367441,
+      "key_metrics": {
+        "dau": 5434.0,
+        "token_price": 0.33,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:32:04.367468",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.317441,
+      "key_metrics": {
+        "dau": 5655.7,
+        "token_price": 0.35,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:34:03.633991",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.267441,
+      "key_metrics": {
+        "dau": 6045.0,
+        "token_price": 0.37,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:36:04.899945",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.217441,
+      "key_metrics": {
+        "dau": 6347.25,
+        "token_price": 0.39,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:38:06.275799",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.195173,
+      "key_metrics": {
+        "dau": 6570.0,
+        "token_price": 0.41,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:40:07.135158",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.192051,
+      "key_metrics": {
+        "dau": 6730.0,
+        "token_price": 0.43,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:42:09.369961",
+      "prev_score": 100,
+      "curr_score": 90,
+      "improvement": -10,
+      "stagnation_penalty": 3,
+      "final_reward": -13,
+      "withdrawal_rate": 0.216142,
+      "key_metrics": {
+        "dau": 6797.3,
+        "token_price": 0.439,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:44:10.089058",
+      "prev_score": 90,
+      "curr_score": 90,
+      "improvement": 0,
+      "stagnation_penalty": 0,
+      "final_reward": 0,
+      "withdrawal_rate": 0.166142,
+      "key_metrics": {
+        "dau": 6865.27,
+        "token_price": 0.444,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:46:10.683162",
+      "prev_score": 90,
+      "curr_score": 100,
+      "improvement": 10,
+      "stagnation_penalty": 5,
+      "final_reward": 5,
+      "withdrawal_rate": 0.216142,
+      "key_metrics": {
+        "dau": 7002.15,
+        "token_price": 0.478,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:48:11.152300",
+      "prev_score": 100,
+      "curr_score": 90,
+      "improvement": -10,
+      "stagnation_penalty": 0,
+      "final_reward": -10,
+      "withdrawal_rate": 0.266142,
+      "key_metrics": {
+        "dau": 7030.0,
+        "token_price": 0.48,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:50:12.324772",
+      "prev_score": 90,
+      "curr_score": 100,
+      "improvement": 10,
+      "stagnation_penalty": 0,
+      "final_reward": 10,
+      "withdrawal_rate": 0.316142,
+      "key_metrics": {
+        "dau": 7140.0,
+        "token_price": 0.5,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:52:12.778001",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 5,
+      "final_reward": -5,
+      "withdrawal_rate": 0.266142,
+      "key_metrics": {
+        "dau": 7253.4,
+        "token_price": 0.57,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:54:14.793966",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 0,
+      "final_reward": 0,
+      "withdrawal_rate": 0.254806,
+      "key_metrics": {
+        "dau": 7362.74,
+        "token_price": 0.6,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:56:41.716274",
+      "prev_score": 100,
+      "curr_score": 95,
+      "improvement": -5,
+      "stagnation_penalty": 3,
+      "final_reward": -8,
+      "withdrawal_rate": 0.204806,
+      "key_metrics": {
+        "dau": 7390.0,
+        "token_price": 0.62,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T15:59:20.201029",
+      "prev_score": 95,
+      "curr_score": 100,
+      "improvement": 5,
+      "stagnation_penalty": 0,
+      "final_reward": 5,
+      "withdrawal_rate": 0.166943,
+      "key_metrics": {
+        "dau": 7450.0,
+        "token_price": 0.68,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T16:01:46.779463",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 0,
+      "final_reward": 0,
+      "withdrawal_rate": 0.216943,
+      "key_metrics": {
+        "dau": 7550.0,
+        "token_price": 0.75,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T16:04:01.560972",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 0,
+      "final_reward": 0,
+      "withdrawal_rate": 0.166943,
+      "key_metrics": {
+        "dau": 7660.0,
+        "token_price": 0.82,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T16:06:10.639397",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.216943,
+      "key_metrics": {
+        "dau": 7770.0,
+        "token_price": 0.9,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T16:08:18.686514",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.266943,
+      "key_metrics": {
+        "dau": 7895.0,
+        "token_price": 0.98,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T16:10:15.358687",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.316943,
+      "key_metrics": {
+        "dau": 8050.0,
+        "token_price": 1.05,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T16:12:10.483941",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.366943,
+      "key_metrics": {
+        "dau": 8150.0,
+        "token_price": 1.15,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T16:14:02.719050",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.316943,
+      "key_metrics": {
+        "dau": 8275.0,
+        "token_price": 1.25,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T16:15:57.187504",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.266943,
+      "key_metrics": {
+        "dau": 8400.0,
+        "token_price": 1.35,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T16:17:48.672056",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.216943,
+      "key_metrics": {
+        "dau": 8450.0,
+        "token_price": 1.4,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T16:19:40.187845",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.166943,
+      "key_metrics": {
+        "dau": 8580.0,
+        "token_price": 1.5,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T16:21:32.125499",
+      "prev_score": 100,
+      "curr_score": 100,
+      "improvement": 0,
+      "stagnation_penalty": 3,
+      "final_reward": -3,
+      "withdrawal_rate": 0.216943,
+      "key_metrics": {
+        "dau": 8680.0,
+        "token_price": 1.65,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "timestamp": "2025-08-05T18:47:08.286567",
+      "prev_score": 100,
+      "curr_score": 95,
+      "improvement": -5,
+      "stagnation_penalty": 3,
+      "final_reward": -8,
+      "withdrawal_rate": 0.266943,
+      "key_metrics": {
+        "dau": 8750.0,
+        "token_price": 1.75,
+        "sentiment": "neutral"
+      }
+    }
+  ],
+  "last_updated": "2025-08-05T18:47:08.286567"
+}
