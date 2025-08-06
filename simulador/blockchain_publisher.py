@@ -1,21 +1,4 @@
-# blockchain_publisher.py
-import os
-import json
-from web3 import Web3
-from web3.middleware.geth_poa import geth_poa_middleware
-import hashlib
 
-# --- Configurações da Blockchain ---
-# Substitua pelo endereço do SEU contrato TextRegistry na Polygon
-CONTRACT_ADDRESS = '0xa6630379eBd4daFb35939a93b4e02824816a4f1F' 
-
-# Substitua pelo ABI do SEU contrato TextRegistry
-# Este é o JSON que você copiou do Remix
-CONTRACT_ABI = json.loads('''
-[
-    {
-        "anonymous": false,
-        "inputs": [
             {
                 "indexed": true,
                 "internalType": "string",
@@ -97,19 +80,7 @@ CONTRACT_ABI = json.loads('''
 # Exemplo para Polygon Mainnet (via Infura, substitua YOUR_INFURA_PROJECT_ID):
 # POLYGON_RPC_URL = "https://polygon-mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
 # Exemplo para Polygon Amoy Testnet (via Infura, substitua YOUR_INFURA_PROJECT_ID):
-# POLYGON_RPC_URL = "https://polygon-amoy.infura.io/v3/YOUR_INFURA_PROJECT_ID"
-# Exemplo para um nó local de testes (Ganache/Hardhat local)
-POLYGON_RPC_URL = "https://polygon-rpc.com" # Exemplo para um ambiente de desenvolvimento local
-
-# Sua chave privada (NUNCA DEIXE EM CÓDIGO FONTE EM PRODUÇÃO! USE VARIÁVEIS DE AMBIENTE!)
-# Esta é a chave privada da conta que irá pagar o gás das transações.
-# Exemplo: private_key = os.environ.get("PRIVATE_KEY")
-PRIVATE_KEY = "64cc542b7e96058d67a5b294b6eda0fd3acdcc8fe1a9de8657c525f63222466f" # !!! SUBSTITUA PELA SUA CHAVE PRIVADA (COM CUIDADO DE SEGURANÇA) !!!
-
-# Endereço da sua carteira (gerado a partir da chave privada)
-ACCOUNT_ADDRESS = Web3.to_checksum_address("0xBbBdE2FB9F1e23B04AE4dDbF197B75c84865Fde6") # !!! SUBSTITUA PELO SEU ENDEREÇO DE CARTEIRA !!!
-
-
+# POLYGON_RPC_URL = "https://polygon-amoy.infura.io/v3/YOUR_INFURA_PROJECT_I
 def get_web3_instance():
     """Retorna uma instância configurada do Web3."""
     w3 = Web3(Web3.HTTPProvider(POLYGON_RPC_URL))
@@ -158,15 +129,7 @@ def register_data_on_blockchain(data_to_register_hash):
         transaction = contract.functions.registerText(data_to_register_hash).build_transaction({
             'chainId': w3.eth.chain_id,
             'from': ACCOUNT_ADDRESS,
-            'nonce': nonce,
-            # 'gasPrice': w3.to_wei('30', 'gwei'), # Exemplo: 30 Gwei, ajuste conforme a rede
-            'gas': 200000 # Limite de gás, ajuste se necessário, mas 200k é geralmente suficiente
-            # 'maxFeePerGas': max_fee_per_gas, # Descomente para EIP-1559
-            # 'maxPriorityFeePerGas': max_priority_fee_per_gas, # Descomente para EIP-1559
-        })
-
-        # 3. Assinar a transação
-        signed_txn = w3.eth.account.sign_transaction(transaction, private_key=PRIVATE_KEY)
+            RIVATE_KEY)
 
         # 4. Enviar a transação
         tx_hash = w3.eth.send_raw_transaction(signed_txn.rawTransaction)
@@ -198,25 +161,6 @@ if __name__ == "__main__":
             with open('state_snapshots.json', 'r', encoding='utf-8') as f:
                 lines = f.readlines()
                 if lines:
-                    last_line = lines[-1]
-                    snapshot_data = json.loads(last_line)
-                    # O 'state' já é uma lista de floats, convertemos para string para hash
-                    state_string = json.dumps(snapshot_data['state'], sort_keys=True) 
-                    latest_snapshot_hash = calculate_sha256_hash(state_string)
-                    print(f"Hash do último snapshot de estado da IA: {latest_snapshot_hash}")
-                else:
-                    print("Nenhum snapshot de estado encontrado.")
-        else:
-            print("Arquivo 'state_snapshots.json' não encontrado.")
-    except Exception as e:
-        print(f"Erro ao ler ou processar 'state_snapshots.json': {e}")
+        
 
-    if latest_snapshot_hash:
-        # Agora registre esse hash na blockchain
-        transaction_hash = register_data_on_blockchain(latest_snapshot_hash)
-        if transaction_hash:
-            print(f"Hash da IA registrado na blockchain! Você pode vê-lo em Polygonscan: https://polygonscan.com/tx/{transaction_hash}")
-        else:
-            print("Não foi possível registrar o hash da IA na blockchain.")
-    else:
         print("Nenhum hash disponível para registro na blockchain.")
