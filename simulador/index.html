@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADLA AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            background: #0a0a0a;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Grid Background Animation */
+        .grid-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(0, 255, 255, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 255, 0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: grid-move 10s linear infinite;
+            z-index: -2;
+        }
+
+        @keyframes grid-move {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(50px, 50px); }
+        }
+
+        /* Glowing Particles */
+        .particles {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: #00ffff;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #00ffff;
+            animation: float 20s infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(100vh) translateX(0);
+                opacity: 0;
+            }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% {
+                transform: translateY(-100vh) translateX(100px);
+                opacity: 0;
+            }
+        }
+
+        /* Main Container */
+        .simulator-container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: 4rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            background: linear-gradient(45deg, #00ffff, #ff00ff, #00ff00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 20px #00ffff; }
+            to { text-shadow: 0 0 30px #ff00ff, 0 0 40px #00ff00; }
+        }
+
+        .subtitle {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        /* Main Grid Layout */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        /* Panel Styles */
+        .panel {
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #00ffff;
+            border-radius: 15px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .panel::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #00ffff, #ff00ff, #00ff00, #00ffff);
+            border-radius: 15px;
+            opacity: 0.5;
+            z-index: -1;
+            animation: border-glow 3s linear infinite;
+        }
+
+        @keyframes border-glow {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+
+        .panel-title {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #00ffff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .panel-title::before {
+            content: '▶';
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+
+        /* Input Controls */
+        .control-group {
+            margin-bottom: 20px;
+        }
+
+        .control-label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+            color: #aaa;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .value-display {
+            color: #00ff00;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            height: 8px;
+            background: #222;
+            border-radius: 4px;
+            outline: none;
+            -webkit-appearance: none;
+            position: relative;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 20px;
+            height: 20px;
+            background: #00ffff;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 0 15px #00ffff;
+            transition: all 0.3s ease;
+        }
+
+        input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+            box-shadow: 0 0 25px #00ffff;
+        }
+
+        /* Sentiment Selector */
+        .sentiment-selector {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .sentiment-btn {
+            flex: 1;
+            padding: 10px;
+            border: 2px solid #333;
+            background: rgba(0, 0, 0, 0.5);
+            color: #888;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            border-radius: 5px;
+        }
+
+        .sentiment-btn:hover {
+            border-color: #00ffff;
+            color: #00ffff;
+        }
+
+        .sentiment-btn.active {
+            background: #00ffff;
+            color: #000;
+            border-color: #00ffff;
+            box-shadow: 0 0 20px #00ffff;
+        }
+
+        /* AI Output Display */
+        .ai-output {
+            background: rgba(0, 255, 255, 0.1);
+            border: 2px solid #00ffff;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .rate-display {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #00ff00;
+            text-shadow: 0 0 30px #00ff00;
+            margin: 20px 0;
+        }
+
+        .rate-label {
+            font-size: 1.2rem;
+            color: #aaa;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Action Buttons */
+        .action-buttons {
+            display: grid;
+            gap: 15px;
+        }
+
+        .action-btn {
+            padding: 15px 30px;
+            border: 2px solid #00ffff;
+            background: rgba(0, 255, 255, 0.1);
+            color: #00ffff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: bold;
+            border-radius: 5px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .action-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(0, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: all 0.5s ease;
+        }
+
+        .action-btn:hover::before {
+            width: 100%;
+            height: 100%;
+        }
+
+        .action-btn:hover {
+            background: rgba(0, 255, 255, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0, 255, 255, 0.5);
+        }
+
+        .action-btn.primary {
+            background: rgba(255, 0, 255, 0.1);
+            border-color: #ff00ff;
+            color: #ff00ff;
+        }
+
+        .action-btn.primary:hover {
+            background: rgba(255, 0, 255, 0.2);
+            box-shadow: 0 5px 20px rgba(255, 0, 255, 0.5);
+        }
+
+        /* Analysis Display */
+        .analysis-section {
+            margin-top: 20px;
+        }
+
+        .analysis-item {
+            background: rgba(0, 0, 0, 0.5);
+            border-left: 3px solid #00ff00;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .analysis-title {
+            font-size: 1.1rem;
+            color: #00ff00;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        .analysis-content {
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        .risk-item {
+            border-left-color: #ff0000;
+        }
+
+        .risk-item .analysis-title {
+            color: #ff0000;
+        }
+
+        .opportunity-item {
+            border-left-color: #00ff00;
+        }
+
+        /* History Log */
+        .history-log {
+            max-height: 400px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+        .history-log::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .history-log::-webkit-scrollbar-track {
+            background: #111;
+            border-radius: 4px;
+        }
+
+        .history-log::-webkit-scrollbar-thumb {
+            background: #00ffff;
+            border-radius: 4px;
+        }
+
+        .history-entry {
+            background: rgba(0, 255, 255, 0.05);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .history-entry:hover {
+            background: rgba(0, 255, 255, 0.1);
+            border-color: rgba(0, 255, 255, 0.5);
+        }
+
+        .history-time {
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .history-rate {
+            font-size: 1.2rem;
+            color: #00ff00;
+            font-weight: bold;
+        }
+
+        .history-hash {
+            font-size: 0.7rem;
+            color: #888;
+            margin-top: 5px;
+            word-break: break-all;
+        }
+
+        /* Loading Animation */
+        .loading {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+        }
+
+        .loading-circle {
+            width: 60px;
+            height: 60px;
+            border: 3px solid rgba(0, 255, 255, 0.3);
+            border-top: 3px solid #00ffff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .main-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Blockchain Status */
+        .blockchain-status {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            background: rgba(0, 255, 0, 0.1);
+            border: 1px solid #00ff00;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            background: #00ff00;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+        }
+
+        .predictions-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .prediction-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .prediction-label {
+            font-size: 0.8rem;
+            color: #888;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .prediction-value {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #00ffff;
+        }
+
+        /* Neural Network Visualization */
+        .neural-viz {
+            height: 200px;
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid #333;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+
+        .neural-node {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background: #00ffff;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #00ffff;
+            animation: neural-pulse 2s infinite;
+        }
+
+        @keyframes neural-pulse {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; box-shadow: 0 0 20px #00ffff; }
+        }
+
+        .neural-connection {
+            position: absolute;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #00ffff, transparent);
+            animation: data-flow 3s infinite;
+        }
+
+        @keyframes data-flow {
+            0% { opacity: 0; transform: translateX(-100%); }
+            50% { opacity: 1; }
+            100% { opacity: 0; transform: translateX(100%); }
+        }
+
+        /* Market Metrics Display */
+        .metric-card {
+            background: rgba(0, 255, 255, 0.05);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .metric-card:hover {
+            background: rgba(0, 255, 255, 0.1);
+            border-color: #00ffff;
+            transform: translateX(5px);
+        }
+
+        .metric-name {
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+
+        .metric-value {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #00ff00;
+        }
+
+        /* Advanced Stats */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .stat-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: #666;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, #00ffff, #ff00ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Notification Toast */
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: rgba(0, 255, 0, 0.1);
+            border: 2px solid #00ff00;
+            padding: 20px;
+            border-radius: 10px;
+            transform: translateX(400px);
+            transition: transform 0.3s ease;
+            z-index: 1000;
+            max-width: 300px;
+        }
+
+        .notification.show {
+            transform: translateX(0);
+        }
+
+        .notification-title {
+            font-weight: bold;
+            color: #00ff00;
+            margin-bottom: 5px;
+        }
+
+        .notification-message {
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+
+        /* Chart Container */
+        .chart-container {
+            height: 200px;
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid #333;
+            border-radius: 10px;
+            margin-top: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .chart-line {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, rgba(0, 255, 255, 0.2), transparent);
+            clip-path: polygon(
+                0% 100%,
+                10% 85%,
+                20% 70%,
+                30% 75%,
+                40% 60%,
+                50% 65%,
+                60% 50%,
+                70% 45%,
+                80% 40%,
+                90% 35%,
+                100% 30%,
+                100% 100%
+            );
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-bg"></div>
+    <div class="particles" id="particles"></div>
+    
+    <div class="loading" id="loading">
+        <div class="loading-circle"></div>
+    </div>
+
+    <div class="simulator-container">
+        <header class="header">
+            <h1>ADLA</h1>
+            <div class="subtitle">Gamefi economic ai</div>
+        </header>
+
+        <div class="main-grid">
+            <div class="panel">
+                <h2 class="panel-title">Market Variables</h2>
+                
+                <div class="control-group">
+                    <label class="control-label">
+                        Transaction Volume
+                        <span class="value-display" id="txVolumeValue">50000</span>
+                    </label>
+                    <input type="range" id="txVolume" min="1000" max="1000000" value="50000" step="1000">
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">
+                        Token Price (₳)
+                        <span class="value-display" id="tokenPriceValue">1.00</span>
+                    </label>
+                    <input type="range" id="tokenPrice" min="0.1" max="10" value="1" step="0.1">
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">
+                        Active Players
+                        <span class="value-display" id="activePlayersValue">1000</span>
+                    </label>
+                    <input type="range" id="activePlayers" min="100" max="50000" value="1000" step="100">
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">
+                        DEX Liquidity
+                        <span class="value-display" id="dexLiquidityValue">100000</span>
+                    </label>
+                    <input type="range" id="dexLiquidity" min="10000" max="10000000" value="100000" step="10000">
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">
+                        New Players
+                        <span class="value-display" id="newPlayersValue">50</span>
+                    </label>
+                    <input type="range" id="newPlayers" min="0" max="1000" value="50" step="10">
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">
+                        Leaving Players
+                        <span class="value-display" id="leavingPlayersValue">30</span>
+                    </label>
+                    <input type="range" id="leavingPlayers" min="0" max="1000" value="30" step="10">
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">Community Sentiment</label>
+                    <div class="sentiment-selector" id="sentimentSelector">
+                        <button class="sentiment-btn" data-value="negative">Negative</button>
+                        <button class="sentiment-btn active" data-value="neutral">Neutral</button>
+                        <button class="sentiment-btn" data-value="positive">Positive</button>
+                    </div>
+                </div>
+
+                <div class="neural-viz">
+                    <div class="neural-node" style="top: 20%; left: 10%;"></div>
+                    <div class="neural-node" style="top: 50%; left: 10%;"></div>
+                    <div class="neural-node" style="top: 80%; left: 10%;"></div>
+                    <div class="neural-node" style="top: 35%; left: 50%;"></div>
+                    <div class="neural-node" style="top: 65%; left: 50%;"></div>
+                    <div class="neural-node" style="top: 50%; left: 90%;"></div>
+                    <div class="neural-connection" style="top: 25%; left: 15%; width: 150px; transform: rotate(15deg);"></div>
+                    <div class="neural-connection" style="top: 50%; left: 15%; width: 150px;"></div>
+                    <div class="neural-connection" style="top: 75%; left: 15%; width: 150px; transform: rotate(-15deg);"></div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2 class="panel-title">AI Decision Engine</h2>
+                
+                <div class="ai-output">
+                    <div class="rate-label">Optimal Withdrawal Rate</div>
+                    <div class="rate-display" id="withdrawalRate">0.20%</div>
+                    <div class="blockchain-status">
+                        <div class="status-dot"></div>
+                        <span>Connected to Polygon Network</span>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="action-btn primary" id="simulateBtn">
+                        🚀 Run AI Simulation
+                    </button>
+                    <button class="action-btn" id="advanceBtn">
+                        ⏭️ Advance 1 Day
+                    </button>
+                    <button class="action-btn" id="blockchainBtn">
+                        🔗 Register on Blockchain
+                    </button>
+                </div>
+
+                <div class="analysis-section" id="analysisSection">
+                    <h3 style="color: #00ffff; margin-bottom: 15px;">AI Analysis Report</h3>
+                    
+                    <div class="analysis-item">
+                        <div class="analysis-title">Decision Factors</div>
+                        <div class="analysis-content" id="decisionFactors">
+                            Awaiting simulation...
+                        </div>
+                    </div>
+
+                    <div class="analysis-item risk-item">
+                        <div class="analysis-title">Risk Assessment</div>
+                        <div class="analysis-content" id="riskAssessment">
+                            Awaiting simulation...
+                        </div>
+                    </div>
+
+                    <div class="analysis-item opportunity-item">
+                        <div class="analysis-title">Opportunities</div>
+                        <div class="analysis-content" id="opportunities">
+                            Awaiting simulation...
+                        </div>
+                    </div>
+
+                    <div class="predictions-grid">
+                        <div class="prediction-card">
+                            <div class="prediction-label">24h Volume</div>
+                            <div class="prediction-value" id="volumePred">-</div>
+                        </div>
+                        <div class="prediction-card">
+                            <div class="prediction-label">Token Price</div>
+                            <div class="prediction-value" id="pricePred">-</div>
+                        </div>
+                        <div class="prediction-card">
+                            <div class="prediction-label">Player Base</div>
+                            <div class="prediction-value" id="playerPred">-</div>
+                        </div>
+                        <div class="prediction-card">
+                            <div class="prediction-label">Sentiment</div>
+                            <div class="prediction-value" id="sentimentPred">-</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <div class="chart-line"></div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2 class="panel-title">Simulation History</h2>
+                
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-label">Simulations</div>
+                        <div class="stat-value" id="totalSims">0</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Avg Rate</div>
+                        <div class="stat-value" id="avgRate">0%</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Model Score</div>
+                        <div class="stat-value" id="modelScore">N/A</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Blockchain Tx</div>
+                        <div class="stat-value" id="blockchainTx">0</div>
+                    </div>
+                </div>
+
+                <h3 style="color: #00ffff; margin: 20px 0 15px;">Recent Decisions</h3>
+                <div class="history-log" id="historyLog">
+                    </div>
+
+                <h3 style="color: #00ffff; margin: 20px 0 15px;">Live Metrics</h3>
+                <div class="metric-card">
+                    <span class="metric-name">Liquidity Ratio</span>
+                    <span class="metric-value" id="liquidityRatio">-</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-name">Churn Rate</span>
+                    <span class="metric-value" id="churnRate">-</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-name">Token Health</span>
+                    <span class="metric-value" id="tokenHealth">-</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-name">Market Pressure</span>
+                    <span class="metric-value" id="marketPressure">-</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="notification" id="notification">
+        <div class="notification-title">Success!</div>
+        <div class="notification-message">AI simulation completed successfully</div>
+    </div>
+
+    <script>
+        // Particle System
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            for (let i = 0; i < 30; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 20 + 's';
+                particle.style.animationDuration = (20 + Math.random() * 10) + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        createParticles();
+
+        // Elementos DOM
+        const loadingScreen = document.getElementById('loading');
+        const withdrawalRateDisplay = document.getElementById('withdrawalRate');
+        const decisionFactorsDisplay = document.getElementById('decisionFactors');
+        const riskAssessmentDisplay = document.getElementById('riskAssessment');
+        const opportunitiesDisplay = document.getElementById('opportunities');
+        const volumePredDisplay = document.getElementById('volumePred');
+        const pricePredDisplay = document.getElementById('pricePred');
+        const playerPredDisplay = document.getElementById('playerPred');
+        const sentimentPredDisplay = document.getElementById('sentimentPred');
+        const historyLog = document.getElementById('historyLog');
+        const totalSimsDisplay = document.getElementById('totalSims');
+        const avgRateDisplay = document.getElementById('avgRate');
+        const modelScoreDisplay = document.getElementById('modelScore'); // Novo
+        const blockchainTxDisplay = document.getElementById('blockchainTx');
+
+        const liquidityRatioDisplay = document.getElementById('liquidityRatio');
+        const churnRateDisplay = document.getElementById('churnRate');
+        const tokenHealthDisplay = document.getElementById('tokenHealth');
+        const marketPressureDisplay = document.getElementById('marketPressure');
+
+        const simulateBtn = document.getElementById('simulateBtn');
+        const advanceBtn = document.getElementById('advanceBtn');
+        const blockchainBtn = document.getElementById('blockchainBtn');
+        const notification = document.getElementById('notification');
+        const notificationTitle = notification.querySelector('.notification-title');
+        const notificationMessage = notification.querySelector('.notification-message');
+
+        // Valores atuais da simulação
+        let currentSentiment = 'neutral';
+        let simulationCount = 0;
+        let totalRates = 0;
+        let blockchainTxCount = 0;
+
+        // Sliders e seus displays de valor
+        const sliders = {
+            txVolume: { element: document.getElementById('txVolume'), display: document.getElementById('txVolumeValue'), format: (val) => val.toLocaleString() },
+            tokenPrice: { element: document.getElementById('tokenPrice'), display: document.getElementById('tokenPriceValue'), format: (val) => val.toFixed(2) },
+            activePlayers: { element: document.getElementById('activePlayers'), display: document.getElementById('activePlayersValue'), format: (val) => val.toLocaleString() },
+            dexLiquidity: { element: document.getElementById('dexLiquidity'), display: document.getElementById('dexLiquidityValue'), format: (val) => val.toLocaleString() },
+            newPlayers: { element: document.getElementById('newPlayers'), display: document.getElementById('newPlayersValue'), format: (val) => val.toLocaleString() },
+            leavingPlayers: { element: document.getElementById('leavingPlayers'), display: document.getElementById('leavingPlayersValue'), format: (val) => val.toLocaleString() }
+        };
+
+        // Atualiza o display do slider
+        Object.keys(sliders).forEach(key => {
+            const slider = sliders[key];
+            slider.element.addEventListener('input', () => {
+                slider.display.textContent = slider.format(parseFloat(slider.element.value));
+            });
+            // Definir o valor inicial
+            slider.display.textContent = slider.format(parseFloat(slider.element.value));
+        });
+
+        // Seleção de Sentimento
+        const sentimentButtons = document.querySelectorAll('.sentiment-btn');
+        sentimentButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                sentimentButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                currentSentiment = button.dataset.value;
+            });
+        });
+
+        // Função para mostrar notificação
+        function showNotification(title, message, type = 'success') {
+            notificationTitle.textContent = title;
+            notificationMessage.textContent = message;
+            notification.className = 'notification show'; // Reset class and add show
+
+            // Remove previous type classes
+            notification.classList.remove('success', 'error', 'info');
+            // Add new type class
+            notification.classList.add(type);
+
+            if (type === 'success') {
+                notification.style.borderColor = '#00ff00';
+                notification.style.background = 'rgba(0, 255, 0, 0.1)';
+                notificationTitle.style.color = '#00ff00';
+            } else if (type === 'error') {
+                notification.style.borderColor = '#ff0000';
+                notification.style.background = 'rgba(255, 0, 0, 0.1)';
+                notificationTitle.style.color = '#ff0000';
+            } else { // info
+                notification.style.borderColor = '#00ffff';
+                notification.style.background = 'rgba(0, 255, 255, 0.1)';
+                notificationTitle.style.color = '#00ffff';
+            }
+
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 5000);
+        }
+
+        // Função para obter os dados de entrada dos sliders e sentimentos
+        function getAIData() {
+            return {
+                transaction_volume: parseFloat(sliders.txVolume.element.value),
+                nft_avg_price: 100.0, // Não tem slider para isso, usando valor fixo
+                daily_active_users: parseFloat(sliders.activePlayers.element.value),
+                new_players: parseFloat(sliders.newPlayers.element.value),
+                leaving_players: parseFloat(sliders.leavingPlayers.element.value),
+                dex_liquidity: parseFloat(sliders.dexLiquidity.element.value),
+                token_price: parseFloat(sliders.tokenPrice.element.value),
+                token_generation_rate: 1000.0, // Valor fixo
+                token_burn_rate: 800.0,      // Valor fixo
+                circulating_assets: 1000000.0, // Valor fixo
+                community_sentiment: currentSentiment,
+                current_withdrawal_rate: parseFloat(withdrawalRateDisplay.textContent) / 100 // Usar a taxa atual como entrada para próxima simulação
+            };
+        }
+
+        // Função para atualizar as métricas ao vivo
+        function updateLiveMetrics(state) {
+            // Os índices do 'state' de 25 features correspondem aos cálculos no calculate_advanced_state
+            // Note que muitos destes são NORMALIZADOS no Python.
+            // Para exibição, podemos estimar ou usar o raw_data se disponível.
+            // Aqui estamos usando os valores normalizados do estado diretamente para simplificar
+
+            // Recalcular com base nos dados de entrada do usuário para manter a consistência com a IA
+            const data = getAIData();
+            
+            // Usar os mesmos cálculos do Python para as métricas avançadas
+            const raw_dau = data.daily_active_users;
+            const raw_circulating_assets = data.circulating_assets;
+            const raw_transaction_volume = data.transaction_volume;
+            const raw_token_generation_rate = data.token_generation_rate;
+            const raw_leaving_players = data.leaving_players;
+            const raw_new_players = data.new_players;
+            const raw_token_burn_rate = data.token_burn_rate;
+            const raw_dex_liquidity = data.dex_liquidity;
+            const sentiment_value = (currentSentiment === 'positive' ? 1.0 : (currentSentiment === 'negative' ? -1.0 : 0.0));
+
+
+            const velocity = raw_transaction_volume / Math.max(raw_circulating_assets, 1e-6);
+            const churn_rate = raw_leaving_players / Math.max(raw_dau, 1e-6);
+            const token_health = (raw_token_burn_rate - raw_token_generation_rate) / Math.max(raw_token_generation_rate, 1e-6);
+            const liquidity_ratio = raw_dex_liquidity / Math.max(raw_transaction_volume, 1e-6);
+            
+            let pressure = (
+                churn_rate * 0.3 +
+                (1 - (liquidity_ratio / 10.0)) * 0.2 + // Normaliza para 0-1 antes do cálculo
+                (1 - ((sentiment_value + 1) / 2)) * 0.2 + 
+                Math.abs(token_health) * 0.3
+            );
+            pressure = Math.min(pressure, 1.0); // Garante que não exceda 1.0
+
+            liquidityRatioDisplay.textContent = `${(liquidity_ratio * 100).toFixed(1)}%`;
+            churnRateDisplay.textContent = `${(churn_rate * 100).toFixed(1)}%`;
+            tokenHealthDisplay.textContent = `${(token_health * 100).toFixed(1)}%`; // Exemplo: de -100% a 100%
+            marketPressureDisplay.textContent = `${(pressure * 100).toFixed(1)}%`; // Exemplo: 0% a 100%
+        }
+
+
+        // Função principal para chamar a IA
+        async function runAISimulation(advanceDay = false) {
+            loadingScreen.style.display = 'block';
+            
+            const aiData = getAIData();
+
+            try {
+                const response = await fetch('/run_ai_simulation', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        data: aiData,
+                        advance_day: advanceDay
+                    })
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    withdrawalRateDisplay.textContent = `${(result.rate * 100).toFixed(3)}%`;
+                    
+                    // Atualizar Análise
+                    decisionFactorsDisplay.innerHTML = result.analysis.decision_factors.map(factor => `• ${factor}`).join('<br>');
+                    riskAssessmentDisplay.innerHTML = result.analysis.risks.map(risk => `• ${risk}`).join('<br>');
+                    opportunitiesDisplay.innerHTML = result.analysis.opportunities.map(opp => `• ${opp}`).join('<br>');
+                    
+                    // Atualizar Predições
+                    volumePredDisplay.textContent = result.analysis.predictions.volume_24h || '-';
+                    pricePredDisplay.textContent = result.analysis.predictions.token_price || '-';
+                    playerPredDisplay.textContent = result.analysis.predictions.player_retention || '-';
+                    sentimentPredDisplay.textContent = result.analysis.predictions.sentiment_trend || '-';
+
+                    // Atualizar Métricas ao Vivo (usando o estado mais recente ou dados brutos)
+                    updateLiveMetrics(result.state); // Passe o estado completo retornado pela IA
+
+                    // Atualizar Histórico e Estatísticas
+                    simulationCount++;
+                    totalRates += result.rate;
+                    totalSimsDisplay.textContent = simulationCount;
+                    avgRateDisplay.textContent = `${((totalRates / simulationCount) * 100).toFixed(2)}%`;
+                    
+                    // Adicionar entrada ao log de histórico
+                    const historyEntry = document.createElement('div');
+                    historyEntry.className = 'history-entry';
+                    historyEntry.innerHTML = `
+                        <div class="history-time">${new Date().toLocaleString()}</div>
+                        <div class="history-rate">Rate: ${(result.rate * 100).toFixed(3)}%</div>
+                        <div class="history-hash">State Hash: ${result.state_hash ? result.state_hash.substring(0, 10) + '...' : 'N/A'}</div>
+                    `;
+                    historyLog.prepend(historyEntry); // Adiciona no topo
+                    showNotification('Simulação Concluída!', 'A IA calculou uma nova taxa.', 'success');
+                } else {
+                    showNotification('Erro na Simulação!', result.error || 'Ocorreu um erro ao rodar a IA.', 'error');
+                }
+            } catch (error) {
+                console.error('Erro na requisição da IA:', error);
+                showNotification('Erro de Conexão!', 'Não foi possível conectar ao servidor da IA.', 'error');
+            } finally {
+                loadingScreen.style.display = 'none';
+            }
+        }
+
+        // Função para chamar o registro na blockchain
+        async function registerOnBlockchain() {
+            loadingScreen.style.display = 'block';
+            try {
+                const response = await fetch('/register_on_blockchain', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({}) // Não precisa de dados específicos aqui, o backend pega do arquivo
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    if (result.tx_hash) {
+                        blockchainTxCount++;
+                        blockchainTxDisplay.textContent = blockchainTxCount;
+                        showNotification('Registro na Blockchain!', `Transação: <a href="https://polygonscan.com/tx/${result.tx_hash}" target="_blank" style="color: #00ffff; text-decoration: none;">${result.tx_hash.substring(0, 10)}...</a>`, 'success');
+                    } else {
+                        showNotification('Falha no Registro!', result.error || 'Ocorreu um erro ao registrar na blockchain.', 'error');
+                    }
+                } else {
+                    showNotification('Erro no Servidor!', result.error || 'Erro na comunicação com o backend.', 'error');
+                }
+            } catch (error) {
+                console.error('Erro na requisição do blockchain:', error);
+                showNotification('Erro de Conexão!', 'Não foi possível conectar ao servidor para registrar na blockchain.', 'error');
+            } finally {
+                loadingScreen.style.display = 'none';
+            }
+        }
+
+        // Event Listeners para botões
+        simulateBtn.addEventListener('click', () => runAISimulation(false)); // Não avança dia
+        advanceBtn.addEventListener('click', () => runAISimulation(true)); // Avança dia
+        blockchainBtn.addEventListener('click', registerOnBlockchain);
+
+        // Inicializar com uma simulação ao carregar a página
+        document.addEventListener('DOMContentLoaded', () => {
+            runAISimulation(false); // Roda a simulação inicial
+        });
+
+    </script>
+</body>
+</html>
